@@ -21,7 +21,8 @@
         "./scripts/fixnetwork.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/openssh.ps1"
+        "./scripts/openssh.ps1",
+        "./scripts/vs_buildtools.ps1"
       ],
       "vmx_data": {
         "RemoteDisplay.vnc.enabled": "false",
@@ -50,7 +51,8 @@
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
         "./scripts/openssh.ps1",
-        "./scripts/oracle-cert.cer"
+        "./scripts/oracle-cert.cer",
+        "./scripts/vs_buildtools.ps1"
       ],
       "vboxmanage": [
         [
@@ -86,7 +88,8 @@
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
         "./scripts/openssh.ps1",
-        "./scripts/oracle-cert.cer"
+        "./scripts/oracle-cert.cer",
+        "./scripts/vs_buildtools.ps1"
       ],
       "prlctl": [
         [
@@ -123,6 +126,7 @@
         "./scripts/disable-auto-logon.bat",
         "./scripts/enable-rdp.bat",
         "./scripts/compile-dotnet-assemblies.bat",
+        "./scripts/vs_buildtools.bat",
         "./scripts/compact.bat"
       ]
     }
